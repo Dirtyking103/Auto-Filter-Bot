@@ -75,7 +75,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/webseriessearchgroup')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/KingQueen108")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/cine_world9')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+CkguprxppJRlYTg9')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/webseriessearchgroup')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/cine_world9")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/cine_world9")
 
@@ -119,7 +119,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://dirtyking102.blogspot.com/2024/08/dirtyking.html")
+URL = environ.get("URL", "https://t.me/binchannel9")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
