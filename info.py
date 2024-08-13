@@ -109,7 +109,7 @@ SHORTLINK = is_enabled('SHORTLINK', True)
 
 #premium info
 PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'https://dirtyking102.blogspot.com/2024/08/dirtyking.html')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '0')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', False)
@@ -119,7 +119,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "0")
+URL = environ.get("URL", "https://dirtyking102.blogspot.com/2024/08/dirtyking.html")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
